@@ -9,7 +9,7 @@
 package com.juanjdes;
 
 import java.util.Scanner;
-import java.util.Random;
+import java.util.Random;  // La clase Random se utiliza para generar números aleatorios
 
 public class NumerosAleatorios {
 
