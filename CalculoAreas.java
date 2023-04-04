@@ -1,5 +1,17 @@
 
-        //  CALCULAR AREA DE UN CUADRADO, CIRCULO O TRIANGULO CON LOS DATOS INTRODUCIDOS
+                /*   CALCULAR ÁREA DE UN CUADRADO, CÍRCULO O TRIÁNGULO CON LOS DATOS INTRODUCIDOS
+
+                     Aplicación que calcula el área de un círculo, cuadrado o triángulo.
+                     Pediremos de qué figura queremos calcular su área y según lo introducido
+                     pedirá los valores necesarios para calcular el área.
+                     Se crea un método por cada figura para calcular cada área, este devolverá un número real.
+                     Muestra el resultado por pantalla.
+
+                     Cálculo de áreas: Circulo: (radio^2)*PI
+                                       Cuadrado: lado * lado
+                                       Triangulo: (base * altura) / 2
+
+                */
 
 
 package com.juanjdes;
