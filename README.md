@@ -9,5 +9,5 @@ DIFFERENT TYPES OF EXERCISES OF JAVA:
                     enteros positivos desde 1 (es decir, los números naturales) hasta n.
                     Por ejemplo:  5! = 1 × 2 × 3 × 4 × 5 = 120
                     
-- ValidaEmail.java -> Utiliza la clase JOptionPane (en vez de la Consola) para solicitar el email y dar los mensajes de ok o error.
+- ValidaEmail.java -> Utiliza la clase JOptionPane (Ventanas en vez de la Consola) para solicitar el email y dar los mensajes de ok o error.
                       Pide una dirección de email y la valida: solo puede tener una @ y después de ella al menos un punto.
