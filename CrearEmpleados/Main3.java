@@ -31,10 +31,10 @@ public class Main3 {
         
         double porcentaje = Integer.parseInt(JOptionPane.showInputDialog("% de subida de sueldo: "));
 
-        // Empieza a recorrer el Array otra vez para ir modificando el sueldo de cada empleado
-        for (int i = 0; i < arrayEmpleado.length; i++) {
-            // Por cada fila del array aplica la función para subir el sueldo
-            arrayEmpleado[i].subeSueldo(porcentaje);
+        /* Empieza a recorrer el Array otra vez para ir modificando el sueldo de cada empleado
+           Utilizamos un bucle foreach, más sencillo a la vista */
+        for (Empleado h: arrayEmpleado) {
+            h.subeSueldo(porcentaje);  // En cada fila del Array va modificando el sueldo con el % que le hemos dado
         }
 
         // Vuelve a recorrer el Array para ir mostrándolo por pantalla
